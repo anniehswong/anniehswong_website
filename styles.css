@@ -1,0 +1,90 @@
+html, body {
+    font-family: 'arial', sans-serif;
+    background-image: url("p6.webp");
+    background-color: #ffffff;
+    text-align: center;
+    height: 100%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+        display: flex;
+    flex-direction: column;
+     width: 100%;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers vertically */
+    align-items: center; /* Centers horizontally */
+}
+
+.name {
+    text-align: center;
+        padding: 10px;
+}
+
+.first-name {
+    font-family: "Century-gothic", sans-serif;
+    font-size: 6rem;
+    background: linear-gradient(90deg, rgba(231, 111, 81, 0.7) 20%, rgba(244, 162, 97, 0.7) 60%, rgba(233, 196, 106, 0.7) 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: -9px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.last-name {
+    font-family: "Century-gothic", sans-serif;
+    font-size: 6rem;
+    background: linear-gradient(-90deg, rgba(231, 111, 81, 0.7) 20%, rgba(244, 162, 97, 0.7) 60%, rgba(233, 196, 106, 0.7) 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: -9px;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+
+.auto-type {
+    font-family: "Quicksand", sans-serif;
+    font-size:1.5rem;
+    font-weight: light;
+    background: linear-gradient(-180deg, rgba(231, 111, 81, 0.7) 10%, rgba(244, 162, 97, 0.7) 40%, rgba(233, 196, 106, 0.7) 70%), #FFFFFF;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 0.5rem;
+}
+
+.social-links {
+        padding: 10px;
+}
+
+
+a {
+     background: linear-gradient(45deg, rgba(231, 111, 81, 0.7) 10%, rgba(244, 162, 97, 0.7) 40%, rgba(233, 196, 106, 0.7) 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.typed-cursor {
+        font-family: "Quicksand", sans-serif;
+    font-size:1.5rem;
+    font-weight: light;
+    color: #f6ccc1;
+}
+
+
+footer {
+    padding: 10px;
+   color: #aaaaaa;
+    font-family: "Quicksand", sans-serif;
+  font-weight:100;
+  font-size:0.8rem;
+}
