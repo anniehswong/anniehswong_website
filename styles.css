@@ -36,7 +36,7 @@ background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81,
     color: transparent;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: -9px;
+    letter-spacing: -10px;
     padding: 2px;
 
 }
@@ -49,20 +49,29 @@ background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81,
     color: transparent;
     text-transform: uppercase;
     font-weight: 100;
-    letter-spacing: -9px;
+    letter-spacing: -10px;
     padding: 2px;
 }
 
 .about {
-    font-size: 1.5rem;
     margin-top: 10px;
+}
+
+.auto-type {
+    font-size: 1.5rem;
     font-family: "Quicksand", sans-serif;
-    font-size:1.5rem;
     font-weight: light;
     background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81, 0.7), rgba(255, 137, 103, 0.7), rgba(253, 96, 81, 0.7), rgba(57, 32, 51, 0.8));
     -webkit-background-clip: text;
     color: transparent;
-    letter-spacing: 0.5rem;
+    letter-spacing: 1rem;
+}
+
+.typed-cursor {
+    font-size: 1.5rem;
+    background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81, 0.7), rgba(255, 137, 103, 0.7), rgba(253, 96, 81, 0.7), rgba(57, 32, 51, 0.8));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .social-links {
