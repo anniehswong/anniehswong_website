@@ -31,8 +31,8 @@ html, body {
 .first-name {
     font-family: 'Century-Gothic', sans-serif;
     font-size: 6rem;
-    background: linear-gradient(90deg, rgba(231, 111, 81, 0.7) 20%, rgba(244, 162, 97, 0.7) 60%, rgba(233, 196, 106, 0.7) 90%);
-    -webkit-background-clip: text;
+background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81, 0.7), rgba(255, 137, 103, 0.7), rgba(253, 96, 81, 0.7), rgba(57, 32, 51, 0.8));
+-webkit-background-clip: text;
     color: transparent;
     text-transform: uppercase;
     font-weight: 700;
@@ -44,8 +44,8 @@ html, body {
 .last-name {
     font-family: 'Century-Gothic', sans-serif;
     font-size: 6rem;
-    background: linear-gradient(-90deg, rgba(231, 111, 81, 0.7) 20%, rgba(244, 162, 97, 0.7) 60%, rgba(233, 196, 106, 0.7) 90%);
-    -webkit-background-clip: text;
+background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81, 0.7), rgba(255, 137, 103, 0.7), rgba(253, 96, 81, 0.7), rgba(57, 32, 51, 0.8));
+-webkit-background-clip: text;
     color: transparent;
     text-transform: uppercase;
     font-weight: 100;
@@ -59,7 +59,7 @@ html, body {
     font-family: "Quicksand", sans-serif;
     font-size:1.5rem;
     font-weight: light;
-    background: linear-gradient(-180deg, rgba(231, 111, 81, 0.7) 10%, rgba(244, 162, 97, 0.7) 40%, rgba(233, 196, 106, 0.7) 70%), #FFFFFF;
+    background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81, 0.7), rgba(255, 137, 103, 0.7), rgba(253, 96, 81, 0.7), rgba(57, 32, 51, 0.8));
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: 0.5rem;
@@ -75,7 +75,7 @@ html, body {
 
 .social-links a {
     font-size: 2rem;
-         background: linear-gradient(45deg, rgba(231, 111, 81, 0.7) 10%, rgba(244, 162, 97, 0.7) 40%, rgba(233, 196, 106, 0.7) 70%);
+    background: linear-gradient(180deg, rgba(255, 229, 119, 0.7), rgba(254, 192, 81, 0.7), rgba(255, 137, 103, 0.7), rgba(253, 96, 81, 0.7), rgba(57, 32, 51, 0.8));
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -83,9 +83,10 @@ html, body {
 footer {
     margin-top: auto;
     padding: 10px;
-    color: #7d7d7d;
+    color: #333333;
     font-weight: 100;
     font-size: 0.8rem;
+    text-align: center;
 }
 
 /* Responsive Design */
